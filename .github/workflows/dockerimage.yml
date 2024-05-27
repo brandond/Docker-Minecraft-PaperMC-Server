@@ -45,7 +45,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            marctv/minecraft-papermc-server
+            brandond/minecraft-papermc-server
             ghcr.io/${{ github.repository }}
           tags: |
             type=raw,value=1.20

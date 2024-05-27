@@ -4,9 +4,9 @@
 FROM eclipse-temurin:21-jre AS build
 RUN apt-get update -y && apt-get install -y curl jq
 
-LABEL Marc Tönsing <marc@marc.tv>
+LABEL Brad Davidson <brad@oatmail.org>
 
-ARG version=1.20.4
+ARG version=1.20.6
 
 
 ########################################################
